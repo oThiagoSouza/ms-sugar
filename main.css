@@ -3,6 +3,7 @@ body{
 }
 
 .container {
+    box-sizing: border-box;
     max-width: 1280px;
     width: 100%;
     margin: 0;
@@ -33,15 +34,17 @@ img{
 
 .principal {
     color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Satisfy', cursive;
     font-weight: normal;
     text-align: center;
+    font-size: 25px;
 }
 
 h3 {
     color: aliceblue;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: normal;
+    font-family: 'Pacifico', cursive;
 }
 
 p {
@@ -125,4 +128,36 @@ footer {
 
 address {
     text-align: center;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    width: 171px;
+}
+
+form button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 515px;
+    border-style: none;
+}
+
+form button:hover {
+    color: blue;
+}
+
+input::placeholder{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.container form input, textarea{
+    align-items: center;
+    margin-left: 515px;
 }
